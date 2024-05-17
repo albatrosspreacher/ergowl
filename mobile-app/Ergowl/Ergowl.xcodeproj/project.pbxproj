@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5960BE3A2BE462E50078F235 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5960BE392BE462E50078F235 /* AppDelegate.swift */; };
+		5960BE3C2BE462E50078F235 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5960BE3B2BE462E50078F235 /* SceneDelegate.swift */; };
+		5960BE3E2BE462E50078F235 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5960BE3D2BE462E50078F235 /* ViewController.swift */; };
+		5960BE412BE462E50078F235 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5960BE402BE462E50078F235 /* Base */; };
+		5960BE432BE462E90078F235 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5960BE422BE462E90078F235 /* Assets.xcassets */; };
+		5960BE462BE462E90078F235 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5960BE452BE462E90078F235 /* Base */; };
+		5960BE512BE462E90078F235 /* ErgowlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5960BE502BE462E90078F235 /* ErgowlTests.swift */; };
+		5960BE5B2BE462E90078F235 /* ErgowlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5960BE5A2BE462E90078F235 /* ErgowlUITests.swift */; };
+		5960BE5D2BE462E90078F235 /* ErgowlUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5960BE5C2BE462E90078F235 /* ErgowlUITestsLaunchTests.swift */; };
+		59926DCE2BE5810500188F80 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59926DCD2BE5810500188F80 /* SettingsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5960BE4D2BE462E90078F235 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5960BE2E2BE462E50078F235 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5960BE352BE462E50078F235;
+			remoteInfo = Ergowl;
+		};
+		5960BE572BE462E90078F235 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5960BE2E2BE462E50078F235 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5960BE352BE462E50078F235;
+			remoteInfo = Ergowl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5960BE362BE462E50078F235 /* Ergowl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ergowl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5960BE392BE462E50078F235 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5960BE3B2BE462E50078F235 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5960BE3D2BE462E50078F235 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5960BE402BE462E50078F235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5960BE422BE462E90078F235 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5960BE452BE462E90078F235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5960BE472BE462E90078F235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5960BE4C2BE462E90078F235 /* ErgowlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ErgowlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5960BE502BE462E90078F235 /* ErgowlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErgowlTests.swift; sourceTree = "<group>"; };
+		5960BE562BE462E90078F235 /* ErgowlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ErgowlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5960BE5A2BE462E90078F235 /* ErgowlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErgowlUITests.swift; sourceTree = "<group>"; };
+		5960BE5C2BE462E90078F235 /* ErgowlUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErgowlUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		59926DCD2BE5810500188F80 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5960BE332BE462E50078F235 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5960BE492BE462E90078F235 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5960BE532BE462E90078F235 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5960BE2D2BE462E50078F235 = {
+			isa = PBXGroup;
+			children = (
+				5960BE382BE462E50078F235 /* Ergowl */,
+				5960BE4F2BE462E90078F235 /* ErgowlTests */,
+				5960BE592BE462E90078F235 /* ErgowlUITests */,
+				5960BE372BE462E50078F235 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5960BE372BE462E50078F235 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5960BE362BE462E50078F235 /* Ergowl.app */,
+				5960BE4C2BE462E90078F235 /* ErgowlTests.xctest */,
+				5960BE562BE462E90078F235 /* ErgowlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5960BE382BE462E50078F235 /* Ergowl */ = {
+			isa = PBXGroup;
+			children = (
+				5960BE392BE462E50078F235 /* AppDelegate.swift */,
+				5960BE3B2BE462E50078F235 /* SceneDelegate.swift */,
+				5960BE3D2BE462E50078F235 /* ViewController.swift */,
+				5960BE3F2BE462E50078F235 /* Main.storyboard */,
+				5960BE422BE462E90078F235 /* Assets.xcassets */,
+				5960BE442BE462E90078F235 /* LaunchScreen.storyboard */,
+				5960BE472BE462E90078F235 /* Info.plist */,
+				59926DCD2BE5810500188F80 /* SettingsViewController.swift */,
+			);
+			path = Ergowl;
+			sourceTree = "<group>";
+		};
+		5960BE4F2BE462E90078F235 /* ErgowlTests */ = {
+			isa = PBXGroup;
+			children = (
+				5960BE502BE462E90078F235 /* ErgowlTests.swift */,
+			);
+			path = ErgowlTests;
+			sourceTree = "<group>";
+		};
+		5960BE592BE462E90078F235 /* ErgowlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5960BE5A2BE462E90078F235 /* ErgowlUITests.swift */,
+				5960BE5C2BE462E90078F235 /* ErgowlUITestsLaunchTests.swift */,
+			);
+			path = ErgowlUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5960BE352BE462E50078F235 /* Ergowl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5960BE602BE462E90078F235 /* Build configuration list for PBXNativeTarget "Ergowl" */;
+			buildPhases = (
+				5960BE322BE462E50078F235 /* Sources */,
+				5960BE332BE462E50078F235 /* Frameworks */,
+				5960BE342BE462E50078F235 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ergowl;
+			productName = Ergowl;
+			productReference = 5960BE362BE462E50078F235 /* Ergowl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5960BE4B2BE462E90078F235 /* ErgowlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5960BE632BE462E90078F235 /* Build configuration list for PBXNativeTarget "ErgowlTests" */;
+			buildPhases = (
+				5960BE482BE462E90078F235 /* Sources */,
+				5960BE492BE462E90078F235 /* Frameworks */,
+				5960BE4A2BE462E90078F235 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5960BE4E2BE462E90078F235 /* PBXTargetDependency */,
+			);
+			name = ErgowlTests;
+			productName = ErgowlTests;
+			productReference = 5960BE4C2BE462E90078F235 /* ErgowlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5960BE552BE462E90078F235 /* ErgowlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5960BE662BE462E90078F235 /* Build configuration list for PBXNativeTarget "ErgowlUITests" */;
+			buildPhases = (
+				5960BE522BE462E90078F235 /* Sources */,
+				5960BE532BE462E90078F235 /* Frameworks */,
+				5960BE542BE462E90078F235 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5960BE582BE462E90078F235 /* PBXTargetDependency */,
+			);
+			name = ErgowlUITests;
+			productName = ErgowlUITests;
+			productReference = 5960BE562BE462E90078F235 /* ErgowlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5960BE2E2BE462E50078F235 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					5960BE352BE462E50078F235 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					5960BE4B2BE462E90078F235 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 5960BE352BE462E50078F235;
+					};
+					5960BE552BE462E90078F235 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 5960BE352BE462E50078F235;
+					};
+				};
+			};
+			buildConfigurationList = 5960BE312BE462E50078F235 /* Build configuration list for PBXProject "Ergowl" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5960BE2D2BE462E50078F235;
+			productRefGroup = 5960BE372BE462E50078F235 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5960BE352BE462E50078F235 /* Ergowl */,
+				5960BE4B2BE462E90078F235 /* ErgowlTests */,
+				5960BE552BE462E90078F235 /* ErgowlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5960BE342BE462E50078F235 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5960BE432BE462E90078F235 /* Assets.xcassets in Resources */,
+				5960BE462BE462E90078F235 /* Base in Resources */,
+				5960BE412BE462E50078F235 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5960BE4A2BE462E90078F235 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5960BE542BE462E90078F235 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5960BE322BE462E50078F235 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5960BE3E2BE462E50078F235 /* ViewController.swift in Sources */,
+				5960BE3A2BE462E50078F235 /* AppDelegate.swift in Sources */,
+				5960BE3C2BE462E50078F235 /* SceneDelegate.swift in Sources */,
+				59926DCE2BE5810500188F80 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5960BE482BE462E90078F235 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5960BE512BE462E90078F235 /* ErgowlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5960BE522BE462E90078F235 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5960BE5D2BE462E90078F235 /* ErgowlUITestsLaunchTests.swift in Sources */,
+				5960BE5B2BE462E90078F235 /* ErgowlUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5960BE4E2BE462E90078F235 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5960BE352BE462E50078F235 /* Ergowl */;
+			targetProxy = 5960BE4D2BE462E90078F235 /* PBXContainerItemProxy */;
+		};
+		5960BE582BE462E90078F235 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5960BE352BE462E50078F235 /* Ergowl */;
+			targetProxy = 5960BE572BE462E90078F235 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5960BE3F2BE462E50078F235 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5960BE402BE462E50078F235 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5960BE442BE462E90078F235 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5960BE452BE462E90078F235 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5960BE5E2BE462E90078F235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5960BE5F2BE462E90078F235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5960BE612BE462E90078F235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36FYTD8TW8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ergowl/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nandiniproothi.Ergowl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5960BE622BE462E90078F235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36FYTD8TW8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ergowl/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nandiniproothi.Ergowl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5960BE642BE462E90078F235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36FYTD8TW8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nandiniproothi.ErgowlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ergowl.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ergowl";
+			};
+			name = Debug;
+		};
+		5960BE652BE462E90078F235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36FYTD8TW8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nandiniproothi.ErgowlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ergowl.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ergowl";
+			};
+			name = Release;
+		};
+		5960BE672BE462E90078F235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36FYTD8TW8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nandiniproothi.ErgowlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ergowl;
+			};
+			name = Debug;
+		};
+		5960BE682BE462E90078F235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36FYTD8TW8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nandiniproothi.ErgowlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ergowl;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5960BE312BE462E50078F235 /* Build configuration list for PBXProject "Ergowl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5960BE5E2BE462E90078F235 /* Debug */,
+				5960BE5F2BE462E90078F235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5960BE602BE462E90078F235 /* Build configuration list for PBXNativeTarget "Ergowl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5960BE612BE462E90078F235 /* Debug */,
+				5960BE622BE462E90078F235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5960BE632BE462E90078F235 /* Build configuration list for PBXNativeTarget "ErgowlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5960BE642BE462E90078F235 /* Debug */,
+				5960BE652BE462E90078F235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5960BE662BE462E90078F235 /* Build configuration list for PBXNativeTarget "ErgowlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5960BE672BE462E90078F235 /* Debug */,
+				5960BE682BE462E90078F235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5960BE2E2BE462E50078F235 /* Project object */;
+}
